@@ -50,7 +50,7 @@ setlocal
 
 if not "%1"=="" goto hack
 
-for /F "delims=" %%i in ('dir %LOCALAPPDATA%\Microsoft\VisualStudio\15.0_* /s/b') do call "%~f0" "%%i"
+for /F "delims=" %%i in ('dir %LOCALAPPDATA%\Microsoft\VisualStudio\16.0_* /s/b') do call "%~f0" "%%i"
 
 goto end
 
